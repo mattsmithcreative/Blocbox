@@ -133,14 +133,6 @@ header .hero {
    box-shadow: 0px 2px 0px 0px #22894E;
  }
 
-.avatar {
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
-}
-
 
 /* Media Queries */
 
@@ -296,3 +288,85 @@ header .hero {
    line-height: 15px;
    font-style:italic;
  }
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding: 4em 0;
+    text-align: center;
+}
+
+ .testimonials h2 {
+   color:#3498DB;
+ }
+
+ .testimonials ul li {
+   list-style-type: none;
+ }
+
+ .testimonials blockquote {
+   color:#FFFFFF;
+   text-align: left;
+   font-style: italic;
+   background:#34495E;
+   position: relative;
+   padding:30px;
+   width:auto;
+   margin:0;
+ }
+
+ .testimonials blockquote:after {
+   top: 100%;
+   left: 13%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-top-color: #34495E;
+   border-width: 10px;
+   margin-left: -10px;
+ }
+
+.testimonials .avatar{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    float: left;
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.testimonials p.name {
+    float: left;
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.one-fourth:nth-child(odd) {
+    margin-top: 20px;
+}
+
+/* NEW SECTION */
+
+.new-section {
+    background-color: darkgray;
+    padding: 3em 0 5em;
+    text-align: center;
+}
+
+ .new-section {
+   color:#fff;
+ }
+
+.new-section p {
+    margin-bottom: 50px;
+}
+
+.new-section .btn {
+    display:inline-block;
+}
