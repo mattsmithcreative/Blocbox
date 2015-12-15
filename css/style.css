@@ -507,6 +507,8 @@ header .hero {
 .left-nav .items ul li {
     list-style-type: none;
     margin-bottom: 15px;
+    border-radius: 2px;
+    padding-top: 2px;
 }
 
 .left-nav .items ul li a {
@@ -519,8 +521,12 @@ header .hero {
     width: 16px;
     text-align: center;
     margin-right: 8px;
+    padding: 5px;
 }
 
+.left-nav .items ul li:hover {
+    background-color: #34958b;
+}
  /* LEFT NAVBAR SETTINGS */
 
  .left-nav .settings {
@@ -696,4 +702,8 @@ header .hero {
     color: #333;
     line-height: 18px;
     margin: 5px 0 0;
+}
+
+nav .active{
+    background-color: #3498db;
 }
