@@ -376,6 +376,13 @@ header .hero {
    display: block;
  }
 
+footer .one-third {
+  width:96%;
+  min-height: 1px;
+  margin: 0 2% 0px;
+}
+
+
 /* Media Queries */
 
   @media (min-width: 768px) {
@@ -446,8 +453,7 @@ header .hero {
  @media (min-width: 992px){
    footer{
      background-color: #3498DB;
-     background-image: linear-gradient(to left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     background-image: linear-gradient(to left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
      height: 100px;
    }
      
@@ -463,6 +469,14 @@ header .hero {
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
+     
+       footer .one-third {  /* was missing */
+    width:29.33333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 0 2% 20px;
+  }
  }
 
 /* DASHBOARD */
