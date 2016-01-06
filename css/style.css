@@ -65,16 +65,17 @@ header {
  }
 
  header nav ul {
-   display:inline;
-   text-align: right;
    float:right;
+   display:inline-block;
+   text-align: right;
+   padding: 0;
    margin:0;
  }
 
  header nav ul > li {
    list-style-type: none;
    display: inline-block;
-   margin:0 15px;
+   margin: 15px 15px;
  }
 
  header nav ul > li.btn-outline {
@@ -354,6 +355,7 @@ header .hero {
    font-weight:100;
    text-align: center;
    margin: 10px auto 0;
+   padding: 0; /* was missing */
  }
 
  footer nav ul li {
@@ -376,7 +378,7 @@ header .hero {
    display: block;
  }
 
-footer .one-third {
+footer .one-third {  /* was missing */
   width:96%;
   min-height: 1px;
   margin: 0 2% 0px;
@@ -457,6 +459,14 @@ footer .one-third {
      height: 100px;
    }
      
+    footer .one-third {  /* was missing */
+    width:29.33333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 0 2% 20px;
+  }
+     
    footer p, footer nav ul{
      padding: 2em 0;
      text-align: left;
@@ -468,15 +478,7 @@ footer .one-third {
      
    footer .logo{
      padding: 2em 0 2em 1.5em;
-   }
-     
-       footer .one-third {  /* was missing */
-    width:29.33333%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    margin: 0 2% 20px;
-  }
+   } 
  }
 
 /* DASHBOARD */
